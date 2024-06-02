@@ -41,7 +41,7 @@ namespace WebApplication.Controllers
 
         private List<Product> GetProductsFromDatabase()
         {
-            // Здесь должен быть код для получения данных из базы данных (используя _connectionString)
+             _connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=usersdb;Integrated Security=True";
         }
 
         [HttpGet("statistics")]
